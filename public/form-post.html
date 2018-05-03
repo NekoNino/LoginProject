@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post comment</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div id="content"></div>
+<form id="todoform" method="post">
+
+    <h1 id="commentheader">Write a comment</h1>
+
+    <div id="commentcontainer">
+    <p>
+        <label id="textname"><b>Username:</b></label> <br />
+        <input type="text" id="todoTitle" name="todoTitle" />
+    </p>
+    <p>
+        <label id="textcontent"><b>Text:</b></label> <br />
+        <textarea id="todoContent" name="todoContent" rows="5" cols="40"></textarea>
+    </p>
+    </div>
+
+    <p>
+        <input type="submit" id="send" value="Send" />
+    </p>
+
+</form>
+
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/form-post.js"></script>
+
+</body>
+</html>

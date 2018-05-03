@@ -1,0 +1,160 @@
+body, html {
+    font-family: Helvetica, Arial, san-serif;
+    background-color: whitesmoke;
+    /*background-image: url("http://www.guibingzhuche.com/data/out/45/935805.png");
+    background-repeat: no-repeat;*/
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#h1text {
+    text-align: center;
+}
+
+h1{
+    color: black;
+}
+
+/* Login button*/
+#lginbutton {
+    background-color: darkslategrey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 130%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+
+#h2text {
+text-align: center;
+    color: black;
+    font-family: Helvetica, Arial, san-serif;
+}
+
+.container {
+
+    position: fixed;
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    padding: 16px;
+    left: 250px;
+    bottom: 200px;
+    border-radius: 14px;
+
+}
+
+.usrname,.psword {
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 150%;
+}
+
+
+#message {
+    color: #cc3300;
+    text-align: center;
+    font-family: Helvetica, Arial, san-serif;
+}
+
+/*Log out button*/
+#btnLogout {
+    background-color: gray;
+    color: black;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    font-size: 130%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border-radius: 15px;
+
+}
+
+/*Margin for form-json comments */
+.list-margin{
+    margin-bottom: 15px;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    background-color: lightgray;
+    width: 50%;
+}
+
+/*Buttons for index link */
+.buttonlink {
+
+    margin: 4px 2px;
+    background-color: darkslategrey;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 9px #333333;
+    border-radius: 15px;
+
+
+}
+
+.buttonlink:active {
+    background-color: darkslategrey;
+    box-shadow: 0 5px #333333;
+    transform: translateY(4px);
+}
+
+/*Html page for form-post*/
+
+#textcontent, #textname {
+
+    font-size: large;
+
+}
+
+#send {
+    background-color: gray;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    font-size: 130%;
+    font-family: Impact, Charcoal, sans-serif;
+    border-radius: 20px;
+    position: fixed;
+    left: 390px;
+}
+
+#todoContent, #todoTitle {
+    font-size: 150%;
+}
+
+/*#commentheader {
+    color: cornflowerblue;
+    padding-left: 10cm;
+}*/
+
+/*#commentcontainer {
+    padding-left: 10cm;
+}
+*/
+#todoform {
+    padding-left: 10cm;
+
+
+}
